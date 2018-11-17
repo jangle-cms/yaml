@@ -1,0 +1,12 @@
+version: 1
+lists:
+  BlogPost:
+    title: String!
+    author: Person
+    content: Html
+
+  Person:
+    name:
+      first: String
+      last: String
+    bio: Html?
